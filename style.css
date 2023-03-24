@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100&family=Roboto:ital,wght@1,100&display=swap');
+/*--tipograqfia--*/
+
+.roboto{
+    font-family: 'Roboto', sans-serif;
+}
+
+.inter{
+      font-family: 'Inter', sans-serif;
+}
+
+*{
+    margin: 0; padding: 0; box-sizing: border-box;
+    
+}
+
+header{
+    height: 80%;
+    width: 100%;
+    background-color: #8EC5FC;
+    background-image: linear-gradient(62deg, #8EC5FC 0%, #E0C3FC 100%);
+    margin: auto;
+    padding: 0% 10% 0% 10%;
+    line-height: 80px;
+
+}
+
+footer{
+    position:static;
+    bottom: 0;
+    height: 60px;
+    width: 100%;
+    background-color: #8EC5FC;
+    padding: 0% 10% 0% 10%;
+    line-height: 80px;
+}
+
+.contenedor {
+    height: 800px;
+    width: 800px;
+    margin: auto;
+    background-color: #FAACA8;
+    background-image: linear-gradient(19deg, #FAACA8 0%, #DDD6F3 100%);
+}
+
+.fila{
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+.flex{
+    display: flex;
+    
+}
+
+.space{
+    justify-content: space-around;
+}
+
+
+.fila .tarjeta {
+    height: 450px;
+    width: 30%;
+    border-radius: 14px;
+    background-color: rgb(82, 92, 94);
+    color: rgb(228, 176, 176);
+    padding: 15px;
+    position: relative;
+    font-family:inter; 
+}
+
+.tarjeta .img {
+    width: 100%;
+    height: 180px;
+    background-color: #E0C3FC;
+    margin-bottom: 14px;
+}
+
+.tarjeta .boton {
+    height: 40px;
+    /*width: 100px;*/
+    padding: 10px 40px;
+    line-height: 20px;
+    background-color: #E0C3FC;
+    border-radius: 20px;
+    color: #0f0f0f;
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+    font-family:roboto;
+    text-decoration: none;
+ }
+
+ .tarjeta .boton:hover{
+    transform: scale(1.1);
+    box-shadow: 0px 0px 10px white;
+ }
+
+ .tarjetaparrafo{
+    line-height: 20pt;
+    margin-top: 10px;
+ }
