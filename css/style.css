@@ -15,6 +15,10 @@
     
 }
 
+body{
+    background-color: #FAACA8;
+}
+
 header{
     height: 80%;
     width: 100%;
@@ -34,11 +38,14 @@ footer{
     background-color: #8EC5FC;
     padding: 0% 10% 0% 10%;
     line-height: 80px;
+    background-color: #E0C3FC;
+    background-image: linear-gradient(62deg, #E0C3FC 0%, #8EC5FC 100%);
+
 }
 
 .contenedor {
-    height: 800px;
-    width: 800px;
+    height: 100%;
+    width: 100%;
     margin: auto;
     background-color: #FAACA8;
     background-image: linear-gradient(19deg, #FAACA8 0%, #DDD6F3 100%);
@@ -51,6 +58,7 @@ footer{
 
 .flex{
     display: flex;
+    flex-wrap: wrap;
     
 }
 
@@ -67,7 +75,8 @@ footer{
     color: rgb(228, 176, 176);
     padding: 15px;
     position: relative;
-    font-family:inter; 
+    font-family: inter;
+    margin-bottom: 30px;
 }
 
 .tarjeta .img {
@@ -101,3 +110,15 @@ footer{
     line-height: 20pt;
     margin-top: 10px;
  }
+
+ .MainFooter {
+    text-align: right;
+    font-family: inter;
+}
+
+.titulo{
+    text-align: center;
+    font-family: inter;
+}
+
+

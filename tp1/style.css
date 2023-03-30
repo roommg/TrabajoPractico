@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&family=Tilt+Warp&display=swap');
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    color: white;
+}
+
+/* variables-------------------------------------- */
+:root{
+--fondo:#090d1a; 
+}
+
+/* dimensiones----------------------------------------- */
+.contenedor{
+    width: 100%;
+    height: 100%;
+    padding: 50px;
+    /* background-color: rgb(102, 15, 102); */
+    /* background-color:var(--fondo) */
+}
+
+.dflex{
+    display: flex;
+}
+
+.centrarHorizontal{
+    justify-content: center;
+}
+
+.centrarVertical{
+    align-items: center;
+}
+
+.centrartx{
+    text-align: center;
+}
+
+.fila{
+    display: flex;
+    flex-direction: column;
+}
+
+.flex1{
+    flex:1;
+}
+
+.col50{
+    /* flex:1; */
+    width: 100%;
+}
+
+.col33{
+    text-transform: uppercase;
+}
+
+.h200{
+    height: 200px;
+}
+
+.h400{height: 400px;}
+/* color ----------------------------------------*/
+.colorprimario{background-color: #4426a0;}
+.violeta{background-color: blueviolet;}
+.azuleta{background-color: #422a8a;}
+.blanco-tx{color: white;}
+.violeta-tx{color: blueviolet;}
+
+/*tipografias--------------------------------------------*/
+
+.roboto{
+    font-family: 'Roboto', sans-serif
+}
+
+
+.tilt{
+    font-family: 'Tilt Warp', cursive;
+}
+
+.fw700{
+    font-weight: 700;
+}
+
+.fw100{
+    font-weight: 700;
+}
+
+
+
+.image{
+    height: 100%;
+    object-fit: cover;
+}
+
+.ov{
+    overflow: hidden;
+}
+
+
+.argentina {
+    background-image: url('https://static.treslineas.com.ar/foto/nota-1698149-argentina-campeon-mundial-qatar-2022-1046383.jpg');
+    position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-blend-mode: screen;
+}
