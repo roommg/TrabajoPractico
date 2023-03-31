@@ -1,6 +1,15 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,100&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@100&family=Roboto:ital,wght@1,100&display=swap');
-/*--tipograqfia--*/
+
+*{
+    margin: 0; 
+    padding: 0; 
+    box-sizing: border-box;
+    transition: all 0.3s ease-in-out;
+    
+}
+
+/*--tipografia--*/
 
 .roboto{
     font-family: 'Roboto', sans-serif;
@@ -10,10 +19,7 @@
       font-family: 'Inter', sans-serif;
 }
 
-*{
-    margin: 0; padding: 0; box-sizing: border-box;
-    
-}
+
 
 body{
     background-color: #FAACA8;
@@ -121,4 +127,19 @@ footer{
     font-family: inter;
 }
 
+/* PROPIEDADES PARA QUE SE VEA LINDO DE COMPUTADORA A CELULAR */
+@media screen and (max-width:662px) { 
+/* PROPIEDAD PARA QUE SE VEA LINDO DE CELULAR A COMPUTADORA */
+/* @media screen and (min-width:662px) {  */
 
+    .fila .tarjeta{
+        width: 100%;
+    }
+
+    .flex{
+        flex-direction: column;
+        gap: 20px;
+    }
+
+} 
+    
