@@ -6,6 +6,10 @@
     box-sizing: border-box;
 }
 
+.gristxt{
+    color:gray;
+}
+
 /*CONTENEDOR SCROLLBAR*/
 ::-webkit-scrollbar {
     height: 5px; /*scroll horizontal*/
@@ -169,38 +173,70 @@ no al texto que se escriba adentro */
 }
 
 .productos{
-    background-color: antiquewhite;
     padding: 10px;
 }
+
+.listaresto{
+    display: flex;
+
+    gap:15px;
+}
+
 .resto{
     display: flex;
     height: 200px;
-    width: 100%; 
-    background-color: aquamarine;
+    width: 100%;
+    box-shadow: 0px 15px 10px rgba(0, 0, 0, 0.256);
+    border-radius: 15px;
 }
 
 .resto .imgresto{
     height: 100%;
     width: 40%;
-    background-color: rgb(224, 153, 66);
-    background-image: url(../img/Harpers_Bazaar.jpeg);
+    background-color: white;
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;   
 }
 
+.resto img{
+    object-fit: cover;
+    height: 100%;
+    width: 100%;
+}
+
 .resto .datosresto{
+    position: relative;
     padding: 25px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
     height: 100%;
     width: 60%;
-    display: flex;
-    justify-content: space-between;
     flex-direction: column;
-    background-color: rgb(160, 125, 83);
+    background-color: rgb(255, 255, 255);
+}
+
+.resto .textos{
+    line-height: 24pt;
 }
 
 .valoracion{
     display: flex;
     justify-content: space-between;
+}
 
+.rate2{
+    position: absolute;
+    background-color: rgb(1, 201, 134);
+    height: 60px;
+    width: 60px;
+    color:white;
+    text-align: center;
+    line-height: 60px;
+    font-size: 18pt;
+    right: -10px;
+    top: -10;
+    border-start-start-radius: 15px;
+    border-end-end-radius: 15px;
 }
