@@ -141,13 +141,13 @@ no al texto que se escriba adentro */
     font-size: 22pt!important;
 }
 
-.categorias{
+.categorias, .inforesto{
     height: 110px;
     margin-top: 40px;
     display: flex;
     align-items: center;  
 }
-.categorias ul{
+.categorias ul, .inforesto ul{
     height: 100%;
     width: 100%;
     display: flex;
@@ -157,14 +157,33 @@ no al texto que se escriba adentro */
     gap: 10px;
     overflow-x: scroll;
 }
-.categorias ul li{
+
+.inforesto{
+    justify-content: space-evenly;
+}
+
+.inforesto ul{
+    justify-content: space-evenly !important;
+    overflow-x: hidden;
+}
+
+.categorias ul li, .inforesto ul li { 
+    display: flex;
     height: 80px;
     text-align: center;
-    display: flex;
     flex-direction: column;
     gap: 10px;
     flex: 0 0 120px;
 }
+
+.med{
+    font-size: 28pt !important;
+}
+
+.large{
+    overflow-x: hidden;
+}
+
 .categorias ul li:hover{
     transform: scale(1.3);
 }
