@@ -257,3 +257,36 @@ no al texto que se escriba adentro */
     border-start-start-radius: 15px;
     border-end-end-radius: 15px;
 }
+
+
+/*///////////////////// resto.html /////////////////*/
+
+.nombre{
+    width: 90%;
+    height: 80%;
+    padding-top: 20px;
+    line-height: 40px;
+    margin: auto;
+}
+
+.info{
+    width: 90%;
+    height: 80%;
+    padding-top: 20px;
+    margin: auto;
+}
+
+footer{
+    position: fixed;
+    bottom: 0;
+    background-color: aquamarine;
+    width: 100%;
+    padding: 10px;
+}
+
+footer ul{
+    display: flex;
+    list-style: none;
+    justify-content: space-evenly;
+
+}
