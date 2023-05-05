@@ -1,0 +1,145 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100&family=Roboto:ital,wght@1,100&display=swap');
+
+*{
+    margin: 0; 
+    padding: 0; 
+    box-sizing: border-box;
+    transition: all 0.3s ease-in-out;
+    
+}
+
+/*--tipografia--*/
+
+.roboto{
+    font-family: 'Roboto', sans-serif;
+}
+
+.inter{
+      font-family: 'Inter', sans-serif;
+}
+
+
+
+body{
+    background-color: #FAACA8;
+}
+
+header{
+    height: 80%;
+    width: 100%;
+    background-color: #8EC5FC;
+    background-image: linear-gradient(62deg, #8EC5FC 0%, #E0C3FC 100%);
+    margin: auto;
+    padding: 0% 10% 0% 10%;
+    line-height: 80px;
+
+}
+
+footer{
+    position:static;
+    bottom: 0;
+    height: 60px;
+    width: 100%;
+    background-color: #8EC5FC;
+    padding: 0% 10% 0% 10%;
+    line-height: 80px;
+    background-color: #E0C3FC;
+    background-image: linear-gradient(62deg, #E0C3FC 0%, #8EC5FC 100%);
+
+}
+
+.contenedor {
+    height: 100%;
+    width: 100%;
+    margin: auto;
+    background-color: #FAACA8;
+    background-image: linear-gradient(19deg, #FAACA8 0%, #DDD6F3 100%);
+}
+
+.fila{
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+.flex{
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+
+.space{
+    justify-content: space-around;
+}
+
+
+.fila .tarjeta {
+    height: 450px;
+    width: 30%;
+    border-radius: 14px;
+    background-color: rgb(82, 92, 94);
+    color: rgb(228, 176, 176);
+    padding: 15px;
+    position: relative;
+    font-family: inter;
+    margin-bottom: 30px;
+}
+
+.tarjeta .img {
+    width: 100%;
+    height: 180px;
+    background-color: #E0C3FC;
+    margin-bottom: 14px;
+}
+
+.tarjeta .boton {
+    height: 40px;
+    /*width: 100px;*/
+    padding: 10px 40px;
+    line-height: 20px;
+    background-color: #E0C3FC;
+    border-radius: 20px;
+    color: #0f0f0f;
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+    font-family:roboto;
+    text-decoration: none;
+ }
+
+ .tarjeta .boton:hover{
+    transform: scale(1.1);
+    box-shadow: 0px 0px 10px white;
+ }
+
+ .tarjetaparrafo{
+    line-height: 20pt;
+    margin-top: 10px;
+ }
+
+ .MainFooter {
+    text-align: right;
+    font-family: inter;
+}
+
+.titulo{
+    text-align: center;
+    font-family: inter;
+}
+
+/* PROPIEDADES PARA QUE SE VEA LINDO DE COMPUTADORA A CELULAR */
+@media screen and (max-width:662px) { 
+/* PROPIEDAD PARA QUE SE VEA LINDO DE CELULAR A COMPUTADORA */
+/* @media screen and (min-width:662px) {  */
+
+    .fila .tarjeta{
+        width: 100%;
+    }
+
+    .flex{
+        flex-direction: column;
+        gap: 20px;
+    }
+
+} 
+    
